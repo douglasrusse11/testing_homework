@@ -7,3 +7,6 @@ class TestCalculator(unittest.TestCase):
 
     def test_subtract(self):
         self.assertEqual(3, subtract(10, 7))
+
+    def test_divide(self):
+        self.assertEqual(8, divide(48, 6))
