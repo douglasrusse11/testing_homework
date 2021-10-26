@@ -10,3 +10,6 @@ class TestCalculator(unittest.TestCase):
 
     def test_divide(self):
         self.assertEqual(8, divide(48, 6))
+
+    def test_multiply(self):
+        self.assertEqual(36, multiply(4, 9))
